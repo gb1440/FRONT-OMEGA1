@@ -18,7 +18,7 @@ const AuthPage = () => {
 
   React.useEffect(() => {
     if (session && !loading) {
-      navigate("/");
+      navigate("/formulario");
     }
   }, [session, loading, navigate]);
 
